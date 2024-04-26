@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GirlSpace</title>
+    <!-- IconScout CDN -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <h2 class="logo">GirlSpace</h2>
+        <div class="search-bar">
+          <i class="uil uil-search"></i>
+          <input
+            type="search"
+            placeholder="Search for creators, inspirations, and projects"
+          />
+        </div>
+        <div class="create">
+          <label class="btn btn-primary" for="create-post">Log Out</label>
+          <div class="profile-photo">
+            <img src="./images/profile-0.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-------------------------------- MAIN ----------------------------------->
+    <main>
+      <div class="container">
+        <!----------------- LEFT -------------------->
+        <div class="left">
+          <a class="profile">
+            <div class="profile-photo">
+              <img src="./images/profile-0.jpeg" />
+            </div>
+            <div class="handle">
+              <h4>user</h4>
+              <p class="text-muted">@usesr</p>
+            </div>
+          </a>
+
+          <!----------------- SIDEBAR -------------------->
+          <div class="sidebar">
+            <a class="menu-item active">
+              <span><i class="uil uil-home"></i></span>
+              <h3>Home</h3>
+            </a>
+            <a class="menu-item">
+              <span><i class="uil uil-compass"></i></span>
+              <h3>Explore</h3>
+            </a>
+            <a class="menu-item" id="notifications">
+              <span
+                ><i class="uil uil-bell"
+                  ><small class="notification-count">9+</small></i
+                ></span
+              >
+              <h3>Notification</h3>
+              <!--------------- NOTIFICATION POPUP --------------->
+              <div class="notifications-popup">
+                <div>
+                  <div class="profile-photo">
+                    <img src="./images/profile-16.jpeg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Kazuha</b> accepted your friend request
+                    <small class="text-muted">2 Days Ago</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-photo">
+                    <img src="./images/profile-10.jpeg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Taylor Swift</b> commented on your post
+                    <small class="text-muted">1 Hour Ago</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-photo">
+                    <img src="./images/profile-14.jpeg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Sakura </b> and <b>283 Others</b> liked your post
+                    <small class="text-muted">4 Minutes Ago</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-photo">
+                    <img src="./images/profile-11.jpeg" />
+                  </div>
+                  <div class="notification-body">
+                    <b> Kim Minji</b> commented on a post you are tagged in
+                    <small class="text-muted">2 Days Ago</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-photo">
+                    <img src="./images/profile-12.jpeg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Daniell </b> commented on a post you are tagged in
+                    <small class="text-muted">1 Hour Ago</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-photo">
+                    <img src="./images/profile-11.jpeg" />
+                  </div>
+                  <div class="notification-body">
+                    <b> Kim Minji</b> commented on your post
+                    <small class="text-muted">1 Hour Ago</small>
+                  </div>
+                </div>
+              </div>
+              <!--------------- END NOTIFICATION POPUP --------------->
+            </a>
+            <a class="menu-item" id="messages-notifications">
+              <span
+                ><i class="uil uil-envelope-alt"
+                  ><small class="notification-count">6</small></i
+                ></span
+              >
+              <h3>Messages</h3>
+            </a>
+            <a class="menu-item">
+              <span><i class="uil uil-bookmark"></i></span>
+              <h3>Bookmarks</h3>
+            </a>
+            <a class="menu-item">
+              <span><i class="uil uil-lightbulb"></i></span>
+              <h3>Mentorship</h3>
+            </a>
+            <a class="menu-item" id="theme">
+              <span><i class="uil uil-palette"></i></span>
+              <h3>Theme</h3>
+            </a>
+            <a class="menu-item">
+              <span><i class="uil uil-setting"></i></span>
+              <h3>Setting</h3>
+            </a>
+          </div>
+          <!----------------- END OF SIDEBAR -------------------->
+          <label class="btn btn-primary" for="create-post">Create Post</label>
+        </div>
+
+        <!----------------- MIDDLE -------------------->
+        <div class="middle">
+          <!----------------- STORIES -------------------->
+          <div class="stories">
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/profile-0.jpeg" />
+              </div>
+              <p class="name">Your Story</p>
+            </div>
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/profile-9.jpeg" />
+              </div>
+              <p class="name">Huh Yunjin</p>
+            </div>
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/profile-10.jpeg" />
+              </div>
+              <p class="name">Taylor Swift</p>
+            </div>
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/profile-11.jpeg" />
+              </div>
+              <p class="name">Kim Minji</p>
+            </div>
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/profile-12.jpeg" />
+              </div>
+              <p class="name">Daniell Snow</p>
+            </div>
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/profile-13.jpeg" />
+              </div>
+              <p class="name">Kim Nayeon</p>
+            </div>
+          </div>
+          <!----------------- END OF STORIES -------------------->
+          <form action="" class="create-post">
+            <div class="profile-photo">
+              <img src="./images/profile-0.jpeg" />
+            </div>
+            <input
+              type="text"
+              placeholder="What's on your mind, user ?"
+              id="create-post"
+            />
+            <input type="submit" value="Post" class="btn btn-primary" />
+          </form>
+          <!----------------- FEEDS -------------------->
+          <div class="feeds">
+            <!----------------- FEED 1 -------------------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-1.jpg" />
+                  </div>
+                  <div class="info">
+                    <h3>Kim Chaewon</h3>
+                    <small>South Korea, 15 Minutes Ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-h"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/feed-1.jpeg" />
+              </div>
+
+              <div class="action-buttons">
+                <div class="interaction-buttons">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="uil uil-bookmark-full"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/profile-11.jpeg" /></span>
+                <span><img src="./images/profile-4.jpeg" /></span>
+                <span><img src="./images/profile-15.jpeg" /></span>
+                <p>Liked by <b>Kim Minji</b> and <b>2, 1,24,556 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Kim Chaewon</b> Reminder to take care of your skin girls.
+                  💗 <span class="harsh-tag">#wellness</span>
+                </p>
+              </div>
+
+              <div class="comments text-muted">View all 277 comments</div>
+            </div>
+            <!----------------- END OF FEED 1 -------------------->
+
+            <!----------------- FEED 2 -------------------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-2.jpeg" />
+                  </div>
+                  <div class="info">
+                    <h3>Michelle Obama</h3>
+                    <small>Miami, 2 Hours Ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-h"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/feed-2.jpeg" />
+              </div>
+
+              <div class="action-buttons">
+                <div class="interaction-buttons">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="uil uil-bookmark-full"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/profile-11.jpeg" /></span>
+                <span><img src="./images/profile-5.jpeg" /></span>
+                <span><img src="./images/profile-16.jpeg" /></span>
+                <p>Liked by <b>Kim Minji </b> and <b>2, 323 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Michelle Obama </b> Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Veniam, fugiat? Ipsam voluptatibus beatae
+                  facere eos harum voluptas distinctio, officia, facilis sed
+                  quisquam esse, assumenda minima ut. Excepturi sit quis
+                  reiciendis! <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+
+              <div class="comments text-muted">View all 100 comments</div>
+            </div>
+            <!----------------- END OF FEED 2 -------------------->
+
+            <!----------------- FEED 3 -------------------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-3.webp" />
+                  </div>
+                  <div class="info">
+                    <h3>Emma Watson</h3>
+                    <small>USA, 50 Minutes Ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-h"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/feed-3.jpeg" />
+              </div>
+
+              <div class="action-buttons">
+                <div class="interaction-buttons">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="uil uil-bookmark-full"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/profile-11.jpeg" /></span>
+                <span><img src="./images/profile-13.jpeg" /></span>
+                <span><img src="./images/profile-14.jpeg" /></span>
+                <p>Liked by <b>Kim Minji </b> and <b>2, 323 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Emma Watson </b> Lorem ipsum dolor sit, amet consectetur
+                  adipisicing elit. Quo ullam, quam voluptatibus natus ex
+                  corporis ea atque quisquam, necessitatibus, cumque eligendi
+                  aliquam nulla soluta hic. Obcaecati, tempore dignissimos! Esse
+                  cupiditate laborum ullam, quae necessitatibus, officiis,
+                  quaerat aspernatur illo voluptatum repellat perferendis
+                  voluptatem similique. Assumenda nostrum, eius sit laborum
+                  nesciunt deserunt! <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+
+              <div class="comments text-muted">View all 50 comments</div>
+            </div>
+            <!----------------- END OF FEED 3 -------------------->
+
+            <!----------------- FEED 4 -------------------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-4.jpeg" />
+                  </div>
+                  <div class="info">
+                    <h3>Malala Yousafzai</h3>
+                    <small>Pakistan, 1 Hour Ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-h"></i>
+                </span>
+              </div>
+
+              <div class="photo"><img src="./images/feed-4.webp""></div>
+
+              <div class="action-buttons">
+                <div class="interaction-buttons">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="uil uil-bookmark-full"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/profile-11.jpeg" /></span>
+                <span><img src="./images/profile-4.jpeg" /></span>
+                <span><img src="./images/profile-15.jpeg" /></span>
+                <p>Liked by <b>Kim Minji</b> and <b>5, 323 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Malala Yousafzai </b> Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Modi architecto sunt itaque, in,
+                  enim non doloremque velit unde nihil vitae impedit dolorum,
+                  distinctio ab deleniti!
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+
+              <div class="comments text-muted">View all 540 comments</div>
+            </div>
+            <!----------------- END OF FEED 4 -------------------->
+
+            <!----------------- FEED 5 -------------------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-5.jpeg" />
+                  </div>
+                  <div class="info">
+                    <h3>Amanda Gorman</h3>
+                    <small>USA, 3 Hours Ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-h"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/feed-5.png" />
+              </div>
+
+              <div class="action-buttons">
+                <div class="interaction-buttons">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="uil uil-bookmark-full"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/profile-11.jpeg" /></span>
+                <span><img src="./images/profile-4.jpeg" /></span>
+                <span><img src="./images/profile-15.jpeg" /></span>
+                <p>Liked by <b>Kim Minji </b> and <b>1, 226 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Amanda Gorman </b> Lorem ipsum dolor, sit amet consectetur
+                  adipisicing elit. Autem obcaecati nisi veritatis quisquam eius
+                  accusantium rem quo repellat facilis neque.
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+
+              <div class="comments text-muted">View all 199 comments</div>
+            </div>
+            <!----------------- END OF FEED 5 -------------------->
+
+            <!----------------- FEED 6 -------------------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-6.webp" />
+                  </div>
+                  <div class="info">
+                    <h3>Pushpa Basnet</h3>
+                    <small>Nepal, 5 Hours Ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-h"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/feed-6.jpeg" />
+              </div>
+
+              <div class="action-buttons">
+                <div class="interaction-buttons">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="uil uil-bookmark-full"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/profile-11.jpeg" /></span>
+                <span><img src="./images/profile-4.jpeg" /></span>
+                <span><img src="./images/profile-15.jpeg" /></span>
+                <p>Liked by <b>Kim Minji</b> and <b>2, 323 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Pushpa Basnet </b> Lorem, ipsum dolor sit amet consectetur
+                  adipisicing elit. Nostrum, consequuntur!
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+
+              <div class="comments text-muted">View all 277 comments</div>
+            </div>
+            <!----------------- END OF FEED 6 -------------------->
+
+            <!----------------- FEED 7 -------------------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-7.jpeg" />
+                  </div>
+                  <div class="info">
+                    <h3>Marley Dias</h3>
+                    <small>UK, 8 Hours Ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-h"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/feed-7.jpeg" />
+              </div>
+
+              <div class="action-buttons">
+                <div class="interaction-buttons">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="uil uil-bookmark-full"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/profile-11.jpeg" /></span>
+                <span><img src="./images/profile-4.jpeg" /></span>
+                <span><img src="./images/profile-12.jpeg" /></span>
+                <p>Liked by <b>Kim Minji</b> and <b>2, 323 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Marley Dias </b> Lorem ipsum, dolor sit amet consectetur
+                  adipisicing elit. Consequuntur itaque quasi autem pariatur
+                  ducimus eligendi, qui odio molestias at molestiae.
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+
+              <div class="comments text-muted">View all 277 comments</div>
+            </div>
+            <!----------------- END OF FEED 7 -------------------->
+          </div>
+          <!----------------- END OF FEEDS -------------------->
+        </div>
+        <!----------------- END OF MIDDLE -------------------->
+
+        <!----------------- RIGHT -------------------->
+        <div class="right">
+          <!------- ARICLE! ------->
+          <div class="article-section">
+            <h2>Latest Articles for Women's Wellbeing</h2>
+            <div class="article">
+              <h3 class="article-title">
+                5 Self-Care Practices Every Woman Should Try
+              </h3>
+              <p class="article-description">
+                Learn about simple self-care practices that can help improve
+                your overall wellbeing and happiness.
+              </p>
+              <a
+                href="https://example.com/article1"
+                class="article-link"
+                target="_blank"
+                >Read Article</a
+              >
+            </div>
+            <div class="article">
+              <h3 class="article-title">
+                Tips for Maintaining a Healthy Work-Life Balance
+              </h3>
+              <p class="article-description">
+                Discover practical tips for balancing your career with personal
+                life responsibilities and self-care.
+              </p>
+              <a
+                href="https://example.com/article2"
+                class="article-link"
+                target="_blank"
+                >Read Article</a
+              >
+            </div>
+            <!-- Add more articles here -->
+          </div>
+          <!------- END OF ARTICLE! ------->
+          <br />
+
+          <!------- MESSAGES ------->
+          <div class="messages">
+            <div class="heading">
+              <h4>Messages</h4>
+              <i class="uil uil-edit"></i>
+            </div>
+            <!------- SEARCH BAR ------->
+            <div class="search-bar">
+              <i class="uil uil-search"></i>
+              <input
+                type="search"
+                placeholder="Search messages"
+                id="message-search"
+              />
+            </div>
+            <!------- MESSAGES CATEGORY ------->
+            <div class="category">
+              <h6 class="active">Primary</h6>
+              <h6>General</h6>
+              <h6 class="message-requests">Requests (7)</h6>
+            </div>
+            <!------- MESSAGES ------->
+            <div class="message">
+              <div class="profile-photo">
+                <img src="./images/profile-14.jpeg" />
+              </div>
+              <div class="message-body">
+                <h5>Sakura</h5>
+                <p class="text-muted">haha</p>
+              </div>
+            </div>
+            <!------- MESSAGES ------->
+            <div class="message">
+              <div class="profile-photo">
+                <img src="./images/profile-9.jpeg" />
+              </div>
+              <div class="message-body">
+                <h5>Huh Yunjin</h5>
+                <p class="text-bold">2 new messages</p>
+              </div>
+            </div>
+            <!------- MESSAGES ------->
+            <div class="message">
+              <div class="profile-photo">
+                <img src="./images/profile-13.jpeg" />
+                <div class="active"></div>
+              </div>
+              <div class="message-body">
+                <h5>Nayeon</h5>
+                <p class="text-muted">lol u right</p>
+              </div>
+            </div>
+
+            <!------- MESSAGES ------->
+            <div class="message">
+              <div class="profile-photo">
+                <img src="./images/profile-15.jpeg" />
+              </div>
+              <div class="message-body">
+                <h5>Sana</h5>
+                <p class="text-bold">5 new messages</p>
+              </div>
+            </div>
+          </div>
+          <!------- END OF MESSAGES ------->
+        </div>
+        <!----------------- END OF RIGHT -------------------->
+      </div>
+    </main>
+
+    <!----------------- THEME CUSTOMIZATION -------------------->
+    <div class="customize-theme">
+      <div class="card">
+        <h2>Customize your view</h2>
+        <p class="text-muted">Manage your font size, color, and background</p>
+
+        <!----------- FONT SIZE ----------->
+        <div class="font-size">
+          <h4>Font Size</h4>
+          <div>
+            <h6>Aa</h6>
+            <div class="choose-size">
+              <span class="font-size-1"></span>
+              <span class="font-size-2 active"></span>
+              <span class="font-size-3"></span>
+              <span class="font-size-4"></span>
+              <span class="font-size-5"></span>
+            </div>
+            <h3>Aa</h3>
+          </div>
+        </div>
+
+        <!----------- PRIMARY COLORS ----------->
+        <div class="color">
+          <h4>Color</h4>
+          <div class="choose-color">
+            <span class="color-1 active"></span>
+            <span class="color-2"></span>
+            <span class="color-3"></span>
+            <span class="color-4"></span>
+            <span class="color-5"></span>
+          </div>
+        </div>
+
+        <!----------- BACKGROUND COLORS ----------->
+        <div class="background">
+          <h4>Background</h4>
+          <div class="choose-bg">
+            <div class="bg-1 active">
+              <span></span>
+              <h5 for="bg-1">Light</h5>
+            </div>
+            <div class="bg-2">
+              <span></span>
+              <h5 for="bg-2">Dim</h5>
+            </div>
+            <div class="bg-3">
+              <span></span>
+              <h5 for="bg-3">Dark</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
